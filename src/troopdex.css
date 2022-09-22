@@ -1,0 +1,24 @@
+.Pokedex-cards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+  }
+  .Pokedex-Winner {
+    color: green;
+    padding: 3px;
+    margin: 2rem;
+    background-color:black;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+  .Pokedex-Looser {
+    color: red;
+    padding: 3px;
+    margin: 2rem;
+    background-color:black;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+  
